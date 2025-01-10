@@ -98,6 +98,26 @@ nav {
     color: #0E0E0E;
     margin: 16px 0 24px;
 }
+/* pillars style */
+.pillars .pillars-content {
+    display: flex; 
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.pillars .pillar-item {
+    padding: 24px;
+    width: calc((100% / 4) - (72px / 4));
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+
+}
+.pillars .pillar-item h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24Px 0 12px;
+}
 
 
 /* future style */
@@ -146,6 +166,22 @@ nav {
 .future .future-items .future-item button.btn-three {
     margin-top: 48px;
     background-color: #FFC239;
+}
+/* paragraph style */
+.paragraph .container {
+    background-color: #FFFFFF;
+    padding: 30px 25px 48px;
+    border-radius: 24px;
+}
+.paragraph .paragraph-content {
+    background-image: url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 25px;
+}
+.paragraph .paragraph-content h4 {
+    font-size: 20px;
+    margin: 12px 0 4px;
 }
 
 /* news section style */
