@@ -147,3 +147,42 @@ nav {
     margin-top: 48px;
     background-color: #FFC239;
 }
+
+/* news section style */
+.news .container .news-content .news-items-area {
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.news .container .news-content .news-items-area h3 {
+    font-size: 32px;
+}
+.news .news-items-area .news-img {
+    width: 100%;
+}
+
+.news .news-items-area .news-img img {
+    border-radius: 16px;
+
+}
+
+.news .news-items-area {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.news .news-items-area .news-text-area img {
+    margin: 12px 0;
+    display: block;
+}
+
+.news .news-items-area .news-text-area span {
+    font-size: 16px;
+}
+
+.news .news-items-area .news-text-area p {
+    margin: 12px 0 36px;
+}
