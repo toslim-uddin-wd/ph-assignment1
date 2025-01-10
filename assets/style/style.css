@@ -10,36 +10,43 @@ body {
     background-color: #F5F5F5;
     font-family: "Fira Sans", sans-serif;
 }
+
 .section-margin {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .section-title {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
+    margin-bottom: 24px;
 }
+
 p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #0E0E0E;
 }
+
 .btn-primary {
     padding: 1rem 2.8rem;
     border: none;
     background-color: #006A50;
-    border-radius: 4rem;
-    box-shadow: 0 0 16px #006A50;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #006A50;
     transition-duration: .5s;
     color: #FFFFFF;
     cursor: pointer;
+    display: block;
 
-    
 }
+
 .btn-primary:hover {
     box-shadow: none;
 }
@@ -49,11 +56,13 @@ p {
 nav {
     padding: 24px 0;
 }
+
 .nav .nav-content {
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
+
 .nav .nav-content button {
     padding: 16px 30px;
     border: none;
@@ -61,26 +70,80 @@ nav {
     border: 1px solid #006A50;
     color: #006A50;
     border-radius: 10px;
+    cursor: pointer;
 }
+
 /* banner style */
 .banner .container {
     background-color: #C6E4D6;
     padding: 80px 60px;
     border-radius: 24px;
 }
+
 .banner .banner-content {
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 .banner .banner-content-area .sub-title {
     font-size: 24px;
     font-weight: 500;
     color: #0E0E0E;
 }
+
 .banner .banner-content-area h1 {
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
     margin: 16px 0 24px;
+}
+
+
+/* future style */
+.future .future-heading p {
+    margin: 24px 0 32px;
+}
+
+.future .future-content .future-items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.future .future-content .future-items .future-item.item-one {
+    background-color: rgba(84, 143, 245, 0.2);
+}
+
+.future .future-content .future-items .future-item.item-three {
+    background-color: #F7EBCF;
+}
+
+.future .future-content .future-items .future-item {
+    width: calc((100% / 3) - (48px / 3));
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    height: 325px;
+    padding: 32px;
+}
+
+.future .future-items .future-item .description-title {
+    margin: 24px 0 12px;
+}
+
+.future .future-items .future-item button {
+    margin-top: 24px;
+}
+
+.future .future-items .future-item button.btn-one {
+    background-color: #5490F5;
+}
+
+.future .future-items .future-item button.btn-two {
+    margin-top: 48px;
+}
+
+.future .future-items .future-item button.btn-three {
+    margin-top: 48px;
+    background-color: #FFC239;
 }
