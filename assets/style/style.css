@@ -267,6 +267,7 @@ nav {
 
 .news .news-items-area .news-img img {
     border-radius: 16px;
+    width: 100%;
 
 }
 
@@ -277,9 +278,10 @@ nav {
 
 }
 
-.news .news-items-area .news-text-area img {
-    margin: 12px 0;
-    display: block;
+.news .news-items-area .news-text-area h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 12px 0 5px;
 }
 
 .news .news-items-area .news-text-area span {
