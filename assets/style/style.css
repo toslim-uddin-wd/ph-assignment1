@@ -222,7 +222,7 @@ nav {
 
 .opinion .opinion-content .questions .question {
     width: 100%;
-    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    border-right: 2px solid rgba(14, 14, 14, 0.15);
     font-size: 16px;
     padding: 40px;
     color: #0E0E0E;
@@ -305,7 +305,7 @@ nav {
 }
 
 .donate .donate-content ul li.active {
-    background-color: #006A50;
+    background-color: rgba(0, 106, 80, 0.5);
     color: #FFFFFF;
 }
 
@@ -320,7 +320,7 @@ nav {
 }
 
 .donate .donate-content ul li:hover {
-    background-color: rgba(0, 106, 80, 0.8);
+    background-color: #006A50;;
     color: #FFFFFF;
     box-shadow: 0 0 10px #006A50;
 }
@@ -338,6 +338,7 @@ nav {
 .donate .donate-content .text-input::placeholder {
     line-height: 64px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .donate .donate-content .button-box {
