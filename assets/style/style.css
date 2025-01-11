@@ -12,7 +12,7 @@ body {
 }
 
 .section-margin {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .container {
@@ -98,9 +98,10 @@ nav {
     color: #0E0E0E;
     margin: 16px 0 24px;
 }
+
 /* pillars style */
 .pillars .pillars-content {
-    display: flex; 
+    display: flex;
     gap: 24px;
     margin-top: 32px;
 }
@@ -113,6 +114,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
 
 }
+
 .pillars .pillar-item h4 {
     font-size: 20px;
     font-weight: bold;
@@ -148,6 +150,8 @@ nav {
 }
 
 .future .future-items .future-item .description-title {
+    font-size: 20px;
+    font-weight: bold;
     margin: 24px 0 12px;
 }
 
@@ -167,21 +171,79 @@ nav {
     margin-top: 48px;
     background-color: #FFC239;
 }
+
 /* paragraph style */
 .paragraph .container {
     background-color: #FFFFFF;
     padding: 30px 25px 48px;
     border-radius: 24px;
 }
+
 .paragraph .paragraph-content {
     background-image: url("../images/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
     padding-top: 25px;
 }
+
 .paragraph .paragraph-content h4 {
     font-size: 20px;
     margin: 12px 0 4px;
+}
+
+/* opinion style */
+.opinion .opinion-content {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.opinion .opinion-content .table-area {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion .opinion-content .table-area .opinion-head {
+    background-color: #d4edda;
+    color: #0E0E0E;
+    padding: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion .opinion-content .questions {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: .5px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion .opinion-content .questions .question {
+    width: 100%;
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 16px;
+    padding: 40px;
+    color: #0E0E0E;
+}
+
+.opinion .opinion-content .selection {
+    width: 220px;
+    padding: 25px;
+    height: 100px;
+    border-left: .5px rgba(14, 14, 14, 0.15);
+}
+
+.opinion .opinion-content .selection select {
+    background-color: #c6e4d6;
+    border-radius: 8px;
+    width: 152px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px;
 }
 
 /* news section style */
@@ -191,9 +253,11 @@ nav {
     border-radius: 24px;
     margin-bottom: 24px;
 }
+
 .news .container .news-content .news-items-area h3 {
     font-size: 32px;
 }
+
 .news .news-items-area .news-img {
     width: 100%;
 }
@@ -228,32 +292,39 @@ nav {
     text-align: center;
     padding: 0 90px;
 }
+
 .donate .donate-content p {
     margin: 24px 32px;
 }
+
 .donate .donate-content ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
 }
+
 .donate .donate-content ul li.active {
     background-color: #006A50;
     color: #FFFFFF;
 }
+
 .donate .donate-content ul li {
     padding: 20px 60px;
     background-color: #fff;
     border-radius: 16px;
     margin: 0 16px;
-    font-size: 32px;
+    font-size: 42px;
     cursor: pointer;
     transition-duration: .5s;
 }
-.donate .donate-content ul li:hover  {
+
+.donate .donate-content ul li:hover {
     background-color: rgba(0, 106, 80, 0.8);
     color: #FFFFFF;
+    box-shadow: 0 0 10px #006A50;
 }
+
 .donate .donate-content .text-input {
     border: none;
     outline: none;
@@ -263,10 +334,12 @@ nav {
     background-color: #FFFFFF;
     margin: 32px 0;
 }
+
 .donate .donate-content .text-input::placeholder {
     line-height: 64px;
     text-align: center;
 }
+
 .donate .donate-content .button-box {
     display: flex;
     justify-content: center;
@@ -279,11 +352,13 @@ nav {
     border-radius: 24px;
 
 }
+
 .subscribe .subscribe-content {
     text-align: center;
     max-width: 620px;
     margin: 0 auto;
 }
+
 .subscribe .subscribe-content .input-box {
     width: 100%;
     height: 60px;
@@ -295,6 +370,7 @@ nav {
     margin: 25px 0;
 
 }
+
 .subscribe .subscribe-content .input-box .subscribe-input {
     flex: 1;
     border: none;
@@ -304,6 +380,7 @@ nav {
     font-size: 16px;
     color: #aaa;
 }
+
 .subscribe .subscribe-content .input-box .subscribe-button {
     background-color: #006A50;
     color: #fff;
@@ -315,19 +392,23 @@ nav {
     font-size: 20px;
     cursor: pointer;
 }
+
 /* footer style */
 .footer {
     background-color: #FFFFFF;
 }
+
 .footer .container {
     text-align: center;
     padding: 50px 0;
-    
+
 }
+
 .footer .container h3 {
     font-size: 32px;
     margin-bottom: 64px;
 }
+
 .footer .container ul {
     list-style: none;
     display: flex;
@@ -335,6 +416,7 @@ nav {
     justify-content: center;
 
 }
+
 .footer .container ul li img {
     width: 40px;
     height: 40px;
