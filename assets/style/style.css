@@ -39,7 +39,7 @@ p {
     border: none;
     background-color: #006A50;
     border-radius: 16px;
-    box-shadow: 0 0 10px #006A50;
+    box-shadow: 5px 5px 10px #006A50;
     transition-duration: .5s;
     color: #FFFFFF;
     cursor: pointer;
@@ -49,7 +49,7 @@ p {
 
 .btn-primary:hover {
     box-shadow: none;
-    background-color: rgba(0, 106, 80, 0.7);
+    background-color: #006A50;
 }
 
 
@@ -115,9 +115,11 @@ nav {
     border-radius: 16px;
     background-color: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
-
+    transition-duration: .3s;
 }
-
+.pillars .pillar-item:hover {
+    background-color: #F8EFBA;
+}
 .pillars .pillar-item h4 {
     font-size: 20px;
     font-weight: bold;
@@ -136,20 +138,24 @@ nav {
     gap: 24px;
 }
 
-.future .future-content .future-items .future-item.item-one {
+.future-items .future-item.item-one {
     background-color: rgba(84, 143, 245, 0.2);
 }
 
-.future .future-content .future-items .future-item.item-three {
+ .future-items .future-item.item-three {
     background-color: #F7EBCF;
 }
 
-.future .future-content .future-items .future-item {
+ .future-items .future-item {
     width: calc((100% / 3) - (48px / 3));
     background-color: #C6E4D6;
     border-radius: 16px;
     height: 325px;
     padding: 32px;
+    transition-duration: .5s;
+}
+.future .future-content .future-items .future-item:hover {
+    background-color: rgba(0, 106, 80, 0.3);
 }
 
 .future .future-items .future-item .description-title {
@@ -211,7 +217,7 @@ nav {
     color: #0E0E0E;
     padding: 24px;
     font-weight: 600;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border: 1px solid rgba(14, 14, 14, 0.15);
     display: flex;
     justify-content: space-between;
 }
@@ -221,14 +227,19 @@ nav {
     align-items: center;
     height: 100px;
     border: .5px solid rgba(14, 14, 14, 0.15);
+    transition-duration: .3s;
 }
 
 .opinion .opinion-content .questions .question {
     width: 100%;
+    height: 100%;
     border-right: 2px solid rgba(14, 14, 14, 0.15);
     font-size: 16px;
     padding: 40px;
     color: #0E0E0E;
+}
+.opinion .opinion-content .questions:hover {
+    background-color: rgba(128, 128, 128, 0.1);
 }
 
 .opinion .opinion-content .selection {
@@ -268,6 +279,7 @@ nav {
 .news .news-items-area .news-img img {
     border-radius: 16px;
     width: 100%;
+    height: 100%;
 
 }
 
@@ -311,7 +323,7 @@ nav {
 
 .donate .donate-content ul li.active {
     background-color: rgba(0, 106, 80, 0.5);
-    color: #FFFFFF;
+    color: black;
 }
 
 .donate .donate-content ul li {
@@ -406,16 +418,18 @@ nav {
 
 .footer .container {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 80px;
 
 }
 
 .footer .container h3 {
     font-size: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 
 .footer .container ul {
+    padding-top: 30px;
+    border-top: 1px solid gray;
     list-style: none;
     display: flex;
     align-items: center;
@@ -427,4 +441,6 @@ nav {
     width: 40px;
     height: 40px;
     margin: 0 16px;
+    cursor: pointer;
+
 }
