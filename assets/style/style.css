@@ -49,6 +49,7 @@ p {
 
 .btn-primary:hover {
     box-shadow: none;
+    background-color: rgba(0, 106, 80, 0.7);
 }
 
 
@@ -64,6 +65,8 @@ nav {
 }
 
 .nav .nav-content button {
+    font-size: 20px;
+    font-weight: 700;
     padding: 16px 30px;
     border: none;
     outline: none;
